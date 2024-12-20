@@ -26,7 +26,7 @@ class ReelsViewController: UIViewController, UICollectionViewDataSource, UIColle
     
     private func setupCollectionView() {
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .vertical
+        layout.scrollDirection = .horizontal
         layout.minimumLineSpacing = 0
         
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
